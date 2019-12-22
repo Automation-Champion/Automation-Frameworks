@@ -7,4 +7,8 @@ public class MyFirstClass {
 
 	}
 
+	// This is for gloval salary method 
+	public void getSalary() {
+		
+	}
 }
