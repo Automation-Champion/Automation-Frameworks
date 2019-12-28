@@ -1,5 +1,8 @@
 package com.usa.collections;
 
+import java.util.HashSet;
+import java.util.Iterator;
+
 public class Set_Interface_Test {
 // Let's see a simple example of HashSet. Notice, the elements iterate in an unordered collection.
 // Java HashSet class is used to create a collection that uses a hash table for storage. 
@@ -58,7 +61,7 @@ public class Set_Interface_Test {
            System.out.println("After invoking removeIf() method: "+set1);  
            //Removing all the elements available in the set  
            set1.clear();  
-           System.out.println("After invoking clear() method: "+set)1;  
+           System.out.println("After invoking clear() method: "+set);  
   }  
  }  
 }  
