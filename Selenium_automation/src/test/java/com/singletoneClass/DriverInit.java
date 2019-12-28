@@ -8,7 +8,7 @@ public class DriverInit {
 	private WebDriver driver;	
 	private DriverInit() {
 	}
-	public WebDriver openBrowser() {
+	public WebDriver openBrowse() {
 	System.setProperty("WebDriver.chrome.driver","./DriverBrowser/chromedriver.exe");
 	driver = new ChromeDriver();
 	return driver;
