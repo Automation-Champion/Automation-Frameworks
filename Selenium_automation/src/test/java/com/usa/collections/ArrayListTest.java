@@ -47,5 +47,22 @@ public static void main(String[] args) {
 }	
 	
 }
-
+/* public class LargestNumberSample {
+	   public static void main(String args[]){
+	      int array[] = {10, 20, 25, 63, 96, 57};
+	      int size = array.length;
+	      Arrays.sort(array);	      
+	      System.out.println("sorted Array ::"+Arrays.toString(array));
+	      int res = array[size-2];
+	      System.out.println("2nd largest element is ::" + res);
+	   
+	   
+	      Integer[] numbers = { 8, 2, 7, 1, 4, 9, 5};
+	      int min = (int) Collections.min(Arrays.asList(numbers));
+	      int max = (int) Collections.max(Arrays.asList(numbers));
+	      
+	      System.out.println("Min number: " + min);
+	      System.out.println("Max number: " + max);
+	   }
+	}  */
 
