@@ -55,6 +55,65 @@ public class AlamBhaiClass {
 	}
 
 }	
+
+
+	static final String name = "Mohammed Alam";
+	static final String road = "In my car";
+	static final String redLight = "Red Light";
+	static final String greenLight = "Green Light";
+	static final String parking = "Parking";
+	static final String office = "In the office & i am giving Interview";
+
+	public static void main(String[] args) {
+
+		while (true) {
+
+			String[] names = { name, road, redLight, greenLight, parking, office };
+			for (String name : names) {
+				if (name.contains(name)) {
+					System.out.println("My Name is : " + name);
+					break;
+				}
+			}
+
+			for (String name : names) {
+				if (name.contains(road)) {
+					System.out.println("I am On the Way : " + name);
+					break;
+				}
+			}
+
+			for (String name : names) {
+				if (name.contains(redLight)) {
+					System.out.println("I am stoping on the : " + name);
+					break;
+				}
+			}
+
+			for (String name : names) {
+				if (name.contains(greenLight)) {
+					System.out.println("Now I am Moving my car on the : " + name);
+					break;
+				}
+			}
+
+			for (String name : names) {
+				if (name.contains(parking)) {
+					System.out.println("I am in Destination & doing : " + name);
+					break;
+				}
+			}
+
+			for (String name : names) {
+				if (name.contains(office)) {
+					System.out.println("Now i am : " + name);
+					break;
+				}
+			}
+			break;
+		}
+	}
+}
 			
 	 */		
 			
