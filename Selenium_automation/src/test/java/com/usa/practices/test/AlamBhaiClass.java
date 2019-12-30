@@ -114,7 +114,18 @@ public class AlamBhaiClass {
 		}
 	}
 }
-			
+	
+			 int[] randomIntegers = { 1, 5, 4, 2, 8, 1, 8, 9,9 };
+	        SortedSet<Integer> set = new TreeSet<Integer>();
+	        for (int i: randomIntegers) {
+	            set.add(i);
+	        }
+	        // Remove the maximum value; print the largest remaining item
+	        set.remove(set.last());
+	        System.out.println(set.last());
+		
+	}
+}
 	 */		
 			
 			
