@@ -1,5 +1,6 @@
 package com.selenium.test;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -14,10 +15,12 @@ public class BaseTest {
 		WebDriver driver=new ChromeDriver();
 		 
 		// Open face book
-		driver.get("http://www.facebook.com");
+		driver.get("https://www.ups.com/us/en/Home.page");
 		 
 		// Maximize browser		 
 		driver.manage().window().maximize();
+		
+		driver.findElement(By.xpath("(//*[contains(text(), 'Log In')] )[1]")).click();
 		 
 		}
 		 
