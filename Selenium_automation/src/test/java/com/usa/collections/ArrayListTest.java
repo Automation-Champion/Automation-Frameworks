@@ -150,6 +150,7 @@ public class ArrayListTest {
 	}
 	
 	// how to use hashmap
+	@SuppressWarnings("rawtypes")
 	public static void HashMaps() {
 		HashMap<Integer, String> hr = new HashMap<Integer, String>();
 		
