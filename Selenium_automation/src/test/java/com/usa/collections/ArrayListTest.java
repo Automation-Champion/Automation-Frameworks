@@ -3,11 +3,13 @@ package com.usa.collections;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.SortedSet;
 import java.util.TreeSet;
+import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 public class ArrayListTest {
@@ -146,6 +148,35 @@ public class ArrayListTest {
 		});
 		System.out.println("<<<<<<<<<<End>>>>>>>>>>>>");
 	}
+	
+	// how to use hashmap
+	public static void HashMaps() {
+		HashMap<Integer, String> hr = new HashMap<Integer, String>();
+		
+		System.out.println("<<<<<<<<<<start>>>>>>>>>>>>");
+		hr.put(1, "Selenium");
+		hr.put(2, "QTP");
+		hr.put(3, "TestComplet");
+		hr.put(4, "RFT");
+		hr.put(null, "ALM");
+		hr.put(4, null);
+		hr.put(4, null);
+		hr.put(4, null);
+
+		// spesipic value
+		System.out.println(hr.get(1));
+		System.out.println(hr.get(4));
+
+		// Loop for all velues
+		for (Entry m : hr.entrySet()) {
+			System.out.println(m.getKey() + "" + m.getValue());
+		}
+		System.out.println(hr);
+		hr.remove(3);
+		System.out.println(hr);
+		 System.out.println("***************end*****************");
+
+	}
 
 	public static void main(String[] args) {
 		removeDuplicate();
@@ -156,5 +187,6 @@ public class ArrayListTest {
 		setinterface();
 		sortedtest();
 		addtwolist();
+		HashMaps();
 	}
 }

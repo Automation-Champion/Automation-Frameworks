@@ -25,6 +25,10 @@ public class Map_Interface_Test {
 		hr.put(2, "QTP");
 		hr.put(3, "TestComplet");
 		hr.put(4, "RFT");
+		hr.put(null, "ALM");
+		hr.put(4, null);
+		hr.put(4, null);
+		hr.put(4, null);
 
 		// spesipic value
 		System.out.println(hr.get(1));
@@ -62,7 +66,7 @@ public class Map_Interface_Test {
 		System.out.println(myHashset);
 		
 		
-		Iterator iterator =myHashset.iterator();
+		Iterator iterator = myHashset.iterator();
 		while (iterator.hasNext()) {
 		System.out.println("value: "+iterator.next() + " ");
 		}
