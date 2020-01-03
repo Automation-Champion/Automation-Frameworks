@@ -29,7 +29,7 @@
 					<executable>C:\Program Files\Java\jdk1.8.0_211\bin\javac.exe</executable>
 				</configuration>
 			</plugin>
-			<plugin>
+	<!-- 		<plugin>
 				<groupId>net.masterthought</groupId>
 				<artifactId>maven-cucumber-reporting</artifactId>
 				<version>3.15.0</version>
@@ -48,7 +48,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
