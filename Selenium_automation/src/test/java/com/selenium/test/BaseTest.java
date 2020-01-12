@@ -8,7 +8,12 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class BaseTest {
 	
 	// This is a my github testing
-	/gfrughrhrgtjlh
+	//gfrughrhrgtjlh
+	
+	
+	public void Hello() {
+		
+	}
 	public static void main(String[] args) {
 		
 		// This is only fire-fox browser for selenium version 2 and fire-fox version 46.1
